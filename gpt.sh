@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
 # تنظیمات
 USERNAME="s3rver"
 TOKEN="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"
-REPO_NAME="html4-learn232ing122"
+REPO_NAME="html4-le32132ar1n232ing122"
 DATE="2015-04-01T18:00:00"
 CommitMsg="Initial Commit"
 
@@ -31,3 +31,7 @@ git remote add origin "https://${ACCESS_TOKEN}@github.com/${USERNAME}/${REPO_NAM
 
 git branch -M main
 git push -u origin main -f
+
+
+ cd ..
+ rm -rf "${REPO_NAME}"
